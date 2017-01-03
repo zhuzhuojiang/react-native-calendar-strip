@@ -41,7 +41,7 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 10,
-        width: 50,
+        maxWidth: 50,
         height: 50,
         borderRadius: 50 / 2
     },
