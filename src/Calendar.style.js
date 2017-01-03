@@ -41,7 +41,11 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 10,
-        maxWidth: 50,
+        ...Platform.select({
+            ios: {
+                width: 50,
+            }
+        }),
         height: 50,
         borderRadius: 50 / 2
     },
